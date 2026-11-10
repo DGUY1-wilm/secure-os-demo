@@ -85,18 +85,10 @@ virtual machine with UEFI Secure Boot and a virtual TPM 2.0 chip.
 
 ### Watch the demo
 
-<!--
-  YOUTUBE LINK GOES HERE.
-  1. Copy your video ID: the part after youtu.be/ (or after watch?v=).
-  2. Replace BOTH copies of VIDEO_ID in the next block with it.
-  3. Delete the opening and closing comment markers around that block
-     so it shows up on the page. Delete this instructions block too.
--->
-<!--
-[![Watch the demo on YouTube](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://youtu.be/VIDEO_ID)
+[![Watch the demo on YouTube](https://img.youtube.com/vi/ZO1ou359OJ0/maxresdefault.jpg)](https://youtu.be/ZO1ou359OJ0)
 
 *Click the image to watch the full demo (about 2.5 minutes).*
--->
+
 
 **Tested on:** Windows 11 host, VirtualBox 7.2, Ubuntu Server 24.04.5 LTS
 (kernel 6.8), EFI firmware with Secure Boot, virtual TPM 2.0.
