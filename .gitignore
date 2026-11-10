@@ -1,0 +1,32 @@
+# --- Secrets: never commit these ---
+demo_vm_key
+demo_vm_key.pub
+vm-login.txt
+*.pem
+
+# --- Large or editable working files (too big for GitHub, or not for public use) ---
+*.mp4
+*.mov
+*.pptx
+*.docx
+
+# --- Virtual machine files ---
+*.ova
+*.vdi
+*.vmdk
+*.vbox
+*.vbox-prev
+*.nvram
+SecureBootDemo/
+Logs/
+
+# --- Office lock files ---
+~$*
+
+# --- Files the demo creates inside the VM, if you copy them out ---
+pcr-*.txt
+*.ko
+*.o
+*.mod*
+Module.symvers
+modules.order
