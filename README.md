@@ -113,16 +113,17 @@ Quick version, for people who've done this before:
 2. Inside the VM, run the commands in [`setup.sh`](setup.sh). It installs
    `mokutil`, `tpm2-tools`, and kernel headers, and builds an unsigned test
    module at `~/demo/hello.ko`.
-3. Follow [`demo-script.md`](demo-script.md): Part A with Secure Boot on, then
-   turn it off in the VM's settings and run Part B.
+3. Follow Steps 9 and 10 of [GETTING_STARTED.md](GETTING_STARTED.md): run the
+   demo with Secure Boot on, then turn it off in the VM's settings and run it
+   again.
 
 ## Repository layout
 
 ```
+LICENSE              MIT license for the code
 README.md            This page
 GETTING_STARTED.md   Plain-language, step-by-step tutorial
 setup.sh             Installs the demo tools and builds the unsigned test module
-demo-script.md       Scene-by-scene recording script with expected output
 docs/images/         Architecture and secure-boot diagrams
 DANIEL.GUY- ...pdf   The white paper and the presentation slides
 ```
@@ -147,3 +148,13 @@ repo deliberately leaves out SSH keys, passwords, and the VM itself (see
 
 Built with VirtualBox, Ubuntu Server, `mokutil`, and `tpm2-tools`. Built with AI
 assistance.
+
+## License
+
+- **Code** (`setup.sh` and the commands in the guides): [MIT](LICENSE)
+- **Paper, slides, guides, and diagrams:**
+  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Feel free to reuse
+  them with credit to Daniel Guy.
+- **Third-party photos** in the slides keep their own licenses and are credited
+  on the slide: Parsa 2au (CC BY-SA 4.0), Ulli1105 (CC BY-SA 2.5), and the U.S.
+  Department of Energy (public domain).

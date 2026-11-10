@@ -310,7 +310,6 @@ The TPM isn't turned on. Shut down the VM and set **TPM** to **v2.0** in
 
 ## Recording the demo
 
-[`demo-script.md`](demo-script.md) has a scene-by-scene script with what to say
-during each step. On Windows, **Win + Alt + R** starts and stops a screen
-recording with Xbox Game Bar, and **Clipchamp** (built in) is enough to trim the
-clips together.
+On Windows, **Win + Alt + R** starts and stops a screen recording with Xbox Game
+Bar, and **Clipchamp** (built in) is enough to trim the clips together. Record
+Step 9 and Step 10 as two separate clips, then put them back to back.
